@@ -5,7 +5,7 @@ function getJokes(e) {
 
     const xhr = new XMLHttpRequest();
 
-    xhr.open('GET', 'https://api.chucknorris.io/jokes/random', true);
+    xhr.open('GET', 'https://www.bitstamp.net/api/ticker/', true);
 
     xhr.onload = function() {
         if (this.status === 200) {
